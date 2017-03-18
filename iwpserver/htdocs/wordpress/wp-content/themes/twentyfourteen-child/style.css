@@ -1,0 +1,15 @@
+/*
+Theme Name: Custom Taxonomies
+
+Description: Using Twenty Fourteen to learn about custom taxonomies
+
+Template:     twentyfourteen
+*/
+
+
+@import url("../twentyfourteen/style.css");
+
+.taxonomy_styles{
+	margin: 0 20px;
+	max-width: 672px;
+}

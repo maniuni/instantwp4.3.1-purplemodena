@@ -1,0 +1,22 @@
+/*
+ Theme Name:   Twenty Ten Child
+ Description:  Twenty Ten Child Theme - to test some things, try a few tutorials and check how things are done properly around here
+ Author:       Irina Antonova
+ Template:     twentyten
+ Version:      1.0.0
+ Text Domain:  twenty-ten-child
+*/
+
+@import url("../twentyten/style.css");
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.shortcodes_recent_posts{
+	list-style: none;
+}
+	.shortcodes_recent_posts li{
+		float: left;
+		margin-right: 5px;
+		font-size: 0.8em;
+	}

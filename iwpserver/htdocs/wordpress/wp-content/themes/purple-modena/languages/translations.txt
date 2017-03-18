@@ -1,0 +1,30 @@
+﻿За да промените езика на темата на български трябва да отворите файла wp-config.php, който се намира в root директорията на Wordpress, след което да промените този ред (If you want to change the language of your wordpress theme to Bulgarian you'll need to open wp-config.php file from the root folder of your WordPress install, and replace this line) :
+define ('WPLANG', '');
+
+with:
+
+define ('WPLANG', 'bg_BG');
+
+--------------------------------------------------------------------------------------------------------
+
+If you want to translate your theme in a different language here is what you need to do:
+
+Firstly you'll need a tool allowing you to translate .po file into your language.
+
+You can use Poedit app, or CodeStyling  WordPress Plugin.
+http://www.poedit.net/
+http://www.code-styling.de/english/development/wordpress-plugin-codestyling-localization-en
+
+Open .po file from /languages/ folder of the theme, and start translating each word to your language.
+
+After you finished, click button "Save Catalog", and it will create a new .mo file in the same folder.
+
+Then you'll need to open wp-config.php file from the root folder of your WordPress install, and replace this line:
+
+define ('WPLANG', '');
+
+with something like:
+
+define ('WPLANG', 'fr_FR');
+
+Then make sure that .mo file from /languages/ folder of our theme has the same name as your language code: "fr_FR.mo"

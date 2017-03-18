@@ -1,0 +1,517 @@
+/*
+	Theme Name: Purple Modena
+	Description: Used to style the TinyMCE editor.
+*/
+
+
+/* Fonts for Internet Explorer */
+
+@font-face {
+	font-family: cuprumbold;
+	src: url("fonts/cuprum-bold-webfont.eot");
+	src:
+		url("fonts/cuprum-bold-webfont.eot?#iefix") format("embedded-opentype"),
+		url("fonts/cuprum-bold-webfont.woff") format("woff"),
+		url("fonts/cuprum-bold-webfont.ttf") format("truetype"),
+		url("fonts/cuprum-bold-webfont.svg#cuprumbold") format("svg");
+	font-weight: normal;
+	font-style: normal;
+
+}
+@font-face {
+	font-family: cuprumbold_italic;
+	src: url("fonts/cuprum-bolditalic-webfont.eot");
+	src:
+		url("fonts/cuprum-bolditalic-webfont.eot?#iefix") format("embedded-opentype"),
+		url("fonts/cuprum-bolditalic-webfont.woff") format("woff"),
+		url("fonts/cuprum-bolditalic-webfont.ttf") format("truetype"),
+		url("fonts/cuprum-bolditalic-webfont.svg#cuprumbold_italic") format("svg");
+	font-weight: normal;
+	font-style: normal;
+
+}
+@font-face {
+	font-family: cuprumitalic;
+	src: url("fonts/cuprum-italic-webfont.eot");
+	src:
+		url("fonts/cuprum-italic-webfont.eot?#iefix") format("embedded-opentype"),
+		url("fonts/cuprum-italic-webfont.woff") format("woff"),
+		url("fonts/cuprum-italic-webfont.ttf") format("truetype"),
+		url("fonts/cuprum-italic-webfont.svg#cuprumitalic") format("svg");
+	font-weight: normal;
+	font-style: normal;
+
+}
+@font-face {
+	font-family: cuprumregular;
+	src: url("fonts/cuprum-regular-webfont.eot");
+	src:
+		url("fonts/cuprum-regular-webfont.eot?#iefix") format("embedded-opentype"),
+		url("fonts/cuprum-regular-webfont.woff") format("woff"),
+		url("fonts/cuprum-regular-webfont.ttf") format("truetype"),
+		url("fonts/cuprum-regular-webfont.svg#cuprumregular") format("svg");
+	font-weight: normal;
+	font-style: normal;
+
+}
+
+
+/* Generic */
+
+html{
+	margin: 20px;
+	padding: 20px;
+	background: #fff url(images/pattern.png);
+	font-size: 62.5%;
+	box-shadow: 0 0 10px #605467;
+	overflow: auto;
+}
+html,
+html .mceContentBody{
+	min-height: 100%;
+}
+html .mceContentBody{
+	width: 847px;
+	margin-bottom: 30px;
+	padding: 30px;
+	background-color: #fff;
+	color: #605467;
+	font: normal 15px cuprumregular, sans-serif;
+	font: normal 1.5rem Cuprum, sans-serif;
+	box-shadow: 0 0 6px #605467;
+	overflow: auto;
+}
+a{
+	color: #406;
+	text-decoration: none;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+a:hover,
+a:visited:hover{
+	color: #aba3c3;
+}
+a:visited, 
+a:active{
+	color: #406;
+}
+h1 a, 
+h2 a, 
+h3 a, 
+h4 a, 
+h5 a, 
+h6 a, 
+h1 a:visited, 
+h2 a:visited, 
+h3 a:visited, 
+h4 a:visited, 
+h5 a:visited, 
+h6 a:visited,
+h1 a:visited:hover,
+h2 a:visited:hover,
+h3 a:visited:hover,
+h4 a:visited:hover,
+h5 a:visited:hover,
+h6 a:visited:hover{
+	color: #000;
+}
+h1 a:hover, 
+h2 a:hover, 
+h3 a:hover, 
+h4 a:hover, 
+h5 a:hover, 
+h6 a:hover{
+	color: #406;
+}
+h1{
+	margin: 35px 0;
+	margin: 3.5rem 0;
+	color: #000;
+	font: bold 35px cuprumbold, sans-serif;
+	font: bold 3.5rem Cuprum, sans-serif;
+}
+h2{
+	margin: 30px 0;
+	margin: 3rem 0;
+	color: #000;
+	font: bold 30px cuprumbold, sans-serif;
+	font: bold 3rem Cuprum, sans-serif;
+}
+h3{
+	margin: 25px 0;
+	margin: 2.5rem 0;
+	color: #000;
+	font: bold 25px cuprumbold, sans-serif;
+	font: bold 2.5rem Cuprum, sans-serif;
+}
+h4{
+	margin: 23px 0;
+	margin: 2.3rem 0;
+	color: #000;
+	font: bold 23px cuprumbold, sans-serif;
+	font: bold 2.3rem Cuprum, sans-serif;
+}
+h5{
+	margin: 20px 0;
+	margin: 2rem 0;
+	color: #000;
+	font: bold 20px cuprumbold, sans-serif;
+	font: bold 2rem Cuprum, sans-serif;
+}
+h6{
+	margin: 18px 0;
+	margin: 1.8rem 0;
+	color: #000;
+	font: bold 18px cuprumbold, sans-serif;
+	font: bold 1.8rem Cuprum, sans-serif;
+}
+p{
+	margin: 0 0 15px 0;
+	margin: 0 0 1.5rem 0;
+	font-size: 15px;
+	font-size: 1.5rem;
+}
+li{
+	margin: 8px 0;
+}
+blockquote{
+	position: relative;
+	margin-bottom: 20px;
+	background-color: #eae8f0;
+}
+blockquote p{
+	margin: 20px;
+	padding-left: 10px;
+	color: #406;
+	font-family: Cuprum, cuprumitalic, sans-serif;
+	font-style: italic;
+}
+blockquote p:first-of-type:before{
+	content: url("images/quotes.png");
+	margin-right: 5px;
+}
+.ie8 blockquote:before{
+	content: url("images/quotes.png");
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.ie8 blockquote{
+	padding-top: 20px; 
+}
+blockquote{
+	margin: 10px 0 10px 20px;
+	overflow: auto;
+}
+address{
+	margin-bottom: 15px;
+}
+abbr, 
+acronym{
+	border-bottom: 1px dotted #406;
+}
+code, 
+kbd, 
+tt, 
+pre{
+	padding: 1px 3px;
+	color: #fff;
+	background: #406;
+}
+pre{
+	padding: 15px 20px;
+	white-space: pre-wrap;       /* css-3 */
+	white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+	white-space: -o-pre-wrap;    /* Opera 7 */
+	word-wrap: break-word;       /* Internet Explorer 5.5+ */
+}
+.mce-item-table{
+	border-collapse: collapse;
+	color: #000;
+	font-size: 15px;
+	font-size: 1.5rem;
+}
+.mce-item-table th{
+	font: bold 15px cuprumbold, sans-serif;
+	font: bold 1.5rem Cuprum, sans-serif;
+}
+.mce-item-table td{
+	font: 15px cuprumregular, sans-serif;
+	font: 1.5rem Cuprum, sans-serif;
+}
+.mce-item-table th, 
+.mce-item-table td{
+	padding: 5px 10px;
+	border: 1px dotted #aba3c3;
+	text-align: left;
+}
+thead th,
+tbody>tr>th{
+	background-color: #aba3c3;
+	color: #fff;
+	text-transform: uppercase;
+}
+tr:nth-child(odd){
+	background-color: #fff;
+}
+tr:nth-child(even){
+	background-color: #eae8f0;
+}
+caption{
+	margin: 5px 0;
+	color: #406;
+	font-size: 18px;
+	font-size: 1.8rem;
+}
+div, 
+label{
+	font-size: 15px;
+	font-size: 1.5rem;
+}
+dl{
+	float: left;
+	clear: left;
+	margin-left: 150px;
+}
+dt{
+	width: 130px;
+	float: left;
+	clear: left;
+	margin-left: -150px;
+	font-family: Cuprum, cuprumbold, sans-serif;
+	font-weight: bold;
+	text-align: right;
+}
+dt:after{
+	content: ":";
+}
+dd{
+	width: 100%;
+	float: left;
+	margin: 0 0 10px 0;
+}
+select{
+	width: 100%;
+	padding: 5px;	
+}
+input[type="submit"]{
+	padding: 5px 10px;
+	border: none;
+	background-color: #406;
+	color: #fff;
+	font: bold 13px cuprumbold, sans-serif;
+	font: bold 1.3rem Cuprum, sans-serif;
+	cursor: pointer;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+input[type="submit"]:hover{
+	background-color: #aba3c3;
+}
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="url"],
+input[type="number"]{
+	width: 150px;
+	padding: 5px;
+	border: 1px solid #aba3c3;
+	background-color: #fafafc;
+	font: 13px cuprumregular, sans-serif;
+	font: 1.3rem Cuprum, sans-serif;
+	box-shadow: 1px 1px 3px rgba(171,163,195,0.6) inset; /* #aba3c3 */
+}
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="number"]:focus,
+input[type="submit"]:focus,
+textarea:focus,
+select:focus{
+	outline: none;
+}
+textarea{
+	width: 100%;
+	padding: 5px;
+	border: 1px solid #aba3c3;
+	background-color: #fafafc;
+	font: 13px cuprumregular, sans-serif;
+	font: 1.3rem Cuprum, sans-serif;
+	box-shadow: 1px 1px 3px rgba(171,163,195,0.6) inset; /* #aba3c3 */
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+	color: #aba3c3;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color: #aba3c3;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color: #aba3c3;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color: #aba3c3;
+}
+#container {
+	min-height: 100%;
+}
+#wrap {
+	overflow:auto;
+}
+
+
+/* Images */
+
+img {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	border: none;
+}
+.image{
+	width: 25%;
+	margin: 0 10px 10px 0;
+}
+.wp-post-image{
+	box-shadow: 0 0 4px #999;
+}
+.mceContentBody .alignleft,
+.mceContentBody img.alignleft {
+	float: left;
+	margin: 4px 4% 4px 0;
+}
+.mceContentBody .alignright,
+.mceContentBody img.alignright {
+	float: right;
+	margin: 4px 0 4px 4%;
+}
+.mceContentBody .aligncenter,
+.mceContentBody img.aligncenter {
+	display: block;
+	clear: both;
+	margin-left: auto;
+	margin-right: auto;
+}
+.mceContentBody img.alignleft,
+.mceContentBody img.alignright,
+.mceContentBody img.aligncenter {
+	margin-bottom: 12px;
+}
+.mceContentBody .alignnone{
+	max-width: 100%;
+}
+
+/* Galleries */
+
+.gallery-icon:after{
+	content: "";
+}
+.gallery {
+	margin: 0 auto 18px; 
+}
+.gallery .gallery-item {
+	width: 33%;
+	float: left;
+	clear: none;
+	margin-top: 0;
+	text-align: center;
+}
+.gallery .gallery-item dt{
+	float: none;
+	margin: 0 auto;
+}
+.gallery img{
+	box-shadow: 0 0 4px #999;
+}
+.gallery-columns-2 .gallery-item {
+	width: 50%; 
+}
+.gallery-columns-4 .gallery-item {
+	width: 25%; 
+}
+.gallery-columns-2 .attachment-medium {
+	max-width: 92%;
+	height: auto;
+}
+.gallery-columns-4 .attachment-thumbnail {
+	max-width: 84%;
+	height: auto;
+}
+.gallery .gallery-caption {
+	margin: 0 0 12px;
+	color: #406;
+	font: italic 12px cuprumitalic, sans-serif;
+	font: italic 1.2rem Cuprum, sans-serif;
+}
+.gallery dl, .gallery dt { 
+	margin: 0; 
+}
+.gallery br+br { 
+	display: none; 
+}
+
+
+/* Captions */
+
+.mceTemp {
+	overflow: auto;
+}
+.wp-caption {
+	max-width: 100%;
+	border: none;
+	background: #fff;
+	text-align: right;
+}
+.wp-caption.alignnone {
+	margin: 0 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin: 0 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin: 0 0 20px 20px;
+}
+.wp-caption img {
+	width: auto;
+	max-width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+.ie8 .wp-caption .size-thumbnail{
+	width: 25%;
+	max-width: none;
+}
+.ie8 .wp-caption .size-medium{
+	width: 40%;
+	max-width: none;
+}
+.ie8 .wp-caption .size-large{
+	width: 100%;
+	max-width: none;
+}
+.wp-caption p.wp-caption-text {
+    margin: 0 0 15px 0;
+	font: italic 12px cuprumitalic, sans-serif;
+	font: italic 1.2rem Cuprum, sans-serif;
+}
+.wp-caption-dt,
+.wp-caption-dd{
+	width: auto;
+	float: none;
+}
+.wp-caption-dt{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: initial;
+	text-align: center;
+}
+.wp-caption-dt:after{
+	content: "";
+}

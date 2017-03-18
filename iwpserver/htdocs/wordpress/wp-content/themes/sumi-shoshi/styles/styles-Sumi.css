@@ -1,0 +1,77 @@
+body{
+	background-color: #30b4bc;
+	background-image: url('../images/Green-pattern-cat.png');
+	font: 18px Corbel, sans-serif;
+}
+	.wrapper{
+		width: 900px;
+		height: 850px;
+		margin: 100px auto;
+		background-color: #fff6f0;
+		background-image: url('../images/Wrapper-pattern.png');
+		border-radius: 10px;
+		box-shadow: 4px 4px 5px rgb(0,0,0);
+		box-shadow: 4px 4px 5px rgba(0,0,0,0.5);
+		position:relative;
+		
+	}
+	img#logo{
+		position:absolute;
+		margin-top: -2px;
+		margin-left: 15px;
+	}
+	img#cloud{
+		position: absolute;
+		top: 50px;
+		right: 65px;
+	}
+	section>img{
+		position:absolute;
+		bottom: -2px;
+		left: 15px;
+	}
+	section>article{
+		background: url('../images/red_tread.png') no-repeat;
+		width: 333px;
+		height: 380px;
+		position: absolute;
+		bottom: 70px;
+		right: 0;
+		box-sizing: border-box;
+		padding: 35px 95px 35px 55px;
+	}
+	article h1{
+		font-weight: bold;
+	}
+	#triangle{
+		display:inline-block;
+		width: 0; 
+		height: 0; 
+		border-left: 15px solid transparent;
+		border-right: 15px solid transparent;	
+		border-top: 15px solid #c02033;	
+		float:right;
+	}
+	section>a{
+		font: italic 16px/12px Corbel, sans-serif;
+		color: white;
+		text-align: center;
+		text-transform: uppercase;
+		text-decoration:none;
+		box-shadow: 1px 1px 0 black;
+		border-radius: 10px;
+		padding: 10px 10px 10px 35px;
+		background: #00909d;
+		position:absolute;
+		bottom: 40px;
+		right: -130px;
+		z-index: -1;
+		-webkit-transform:rotate(-30deg);
+		-moz-transform:rotate(-30deg);
+		-ms-transform:rotate(-30deg);
+		-o-transform:rotate(-30deg);
+		transform:rotate(-30deg);
+		}
+			section>a:active{
+			font-weight:bold;
+			}

@@ -1,0 +1,324 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Purple Modena\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-08-13 12:58+0200\n"
+"PO-Revision-Date: 2014-08-13 12:58+0200\n"
+"Last-Translator: Irina Antonova <maniuni@gmail.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: bg_BG\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.6\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../index.php:12
+#: ../page.php:11
+#: ../page-full-width.php:14
+#: ../archive.php:33
+#, php-format
+msgid "Permalink to %s"
+msgstr "Пермалинк до %s"
+
+#: ../index.php:26
+#, php-format
+msgid "View all posts by %s"
+msgstr "Виж всички постове от %s"
+
+#: ../index.php:48
+#: ../page.php:19
+#: ../page-full-width.php:22
+#: ../archive.php:52
+msgid "Pages "
+msgstr "Страници"
+
+#: ../index.php:56
+msgid ", "
+msgstr ", "
+
+#: ../index.php:57
+#, php-format
+msgid "Categories: <a href=\"%2$s\">%1$s</a>."
+msgstr "Категории: <a href=\"%2$s\">%1$s</a>."
+
+#: ../index.php:69
+msgid "/ Leave a comment"
+msgstr "/ Остави коментар"
+
+#: ../index.php:70
+msgid "/ 1 Comment"
+msgstr "/ 1 коментар"
+
+#: ../index.php:71
+msgid "/ % Comments"
+msgstr "/ % коментара"
+
+#: ../index.php:75
+#: ../page.php:31
+#: ../page-full-width.php:34
+msgid "Edit"
+msgstr "Редактирай"
+
+#: ../index.php:88
+#: ../archive.php:59
+msgid "Previous"
+msgstr "Предишни "
+
+#: ../index.php:89
+#: ../archive.php:60
+msgid "Next"
+msgstr "Следващи"
+
+#: ../header.php:40
+msgid "Skip to content"
+msgstr "Прескочи до съдържанието"
+
+#: ../footer.php:25
+msgid "Proudly powered by Wordpress"
+msgstr "Гордо задвижван от WordPress"
+
+#: ../functions.php:49
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+#: ../functions.php:61
+msgid "Sidebar Widget Area"
+msgstr "Странична лента за притурки"
+
+#: ../functions.php:63
+msgid "The sidebar widget area"
+msgstr "Страничната лента за притурки"
+
+#: ../functions.php:73
+msgid "First Footer Widget Area"
+msgstr "Първа лента за притурки във футъра"
+
+#: ../functions.php:75
+msgid "The first footer widget area"
+msgstr "Първата лента за притурки във футъра"
+
+#: ../functions.php:86
+msgid "Second Footer Widget Area"
+msgstr "Втора лента за притурки във футъра"
+
+#: ../functions.php:88
+msgid "The second footer widget area"
+msgstr "Втората лента за притурки във футъра"
+
+#: ../functions.php:99
+msgid "Third Footer Widget Area"
+msgstr "Трета лента за притурки във футъра"
+
+#: ../functions.php:101
+msgid "The third footer widget area"
+msgstr "Третата лента за притурки във футъра"
+
+#: ../functions.php:112
+msgid "Fourth Footer Widget Area"
+msgstr "Четвърта лента за притурки във футъра"
+
+#: ../functions.php:114
+msgid "The fourth footer widget area"
+msgstr "Четвъртата лента за притурки във футъра"
+
+#: ../functions.php:146
+msgid "Main Navigation Menu"
+msgstr "Основно меню за навигация"
+
+#: ../page.php:25
+#: ../page-full-width.php:28
+msgid "Leave a comment"
+msgstr "Остави коментар"
+
+#: ../page.php:26
+#: ../page-full-width.php:29
+msgid "1 Comment"
+msgstr "1 коментар"
+
+#: ../page.php:27
+#: ../page-full-width.php:30
+msgid "% Comments"
+msgstr "% коментара"
+
+#: ../archive.php:13
+#: ../archive.php:15
+#: ../archive.php:17
+#, php-format
+msgid "Archive for %s"
+msgstr "Архив за %s"
+
+#: ../comments.php:30
+#, php-format
+msgid "1 comment"
+msgid_plural "%1$s comments"
+msgstr[0] "1 коментар"
+msgstr[1] "%1$s коментара"
+
+#: ../comments.php:37
+#: ../comments.php:55
+msgid "&larr; Older Comments"
+msgstr "&larr; Предишни коментари"
+
+#: ../comments.php:38
+#: ../comments.php:56
+msgid "Newer Comments &rarr;"
+msgstr "Следващи коментари  &rarr;"
+
+#: ../comments.php:66
+msgid "Comments are closed."
+msgstr "Коментарите са затворени."
+
+#: ../comments.php:76
+msgid "Name"
+msgstr "Име"
+
+#: ../comments.php:78
+msgid "Email"
+msgstr "Имейл"
+
+#: ../comments.php:80
+msgid "Website(optional)"
+msgstr "Уебсайт(незадължително)"
+
+#: ../comments.php:86
+msgid "Add comment"
+msgstr "Добави коментар"
+
+#: ../comments.php:88
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "Трябва да си <a href=\"%s\">логнат</a> за да коментираш."
+
+#: ../comments.php:90
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr "Логнат като <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Излез от този профил\">Излез от профила?</a>"
+
+#: ../comments.php:92
+msgid "Your email address will not be published."
+msgstr "Имейл адресът няма да бъде публикуван."
+
+#: ../comments.php:96
+msgid "Leave a Reply"
+msgstr "Остави отговор"
+
+#: ../comments.php:98
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Отговори на %s"
+
+#: ../comments.php:100
+msgid "Cancel Reply"
+msgstr "Отмени отговора"
+
+#: ../comments.php:102
+msgid "Post Comment"
+msgstr "Публикувай"
+
+#: ../404.php:5
+msgid "Page Not Found"
+msgstr "Страницата не е намерена"
+
+#: ../404.php:9
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Изглежда, че нищо не е открито. Може би търсачката ще помогне?"
+
+#: ../inc/modena-tags.php:17
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: ../inc/modena-tags.php:18
+#: ../inc/modena-tags.php:53
+msgid "<span class=\"genericon genericon-edit right\"></span>"
+msgstr "<span class=\"genericon genericon-edit right\"></span>"
+
+#: ../inc/modena-tags.php:35
+msgid "Your comment is awaiting moderation."
+msgstr "Коментарът ще бъде модериран."
+
+#: ../inc/modena-tags.php:45
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+#~ msgid "Tags: "
+#~ msgstr "Тагове: "
+
+#~ msgid "Share:"
+#~ msgstr "Сподели:"
+
+#~ msgid "Tweet this!"
+#~ msgstr "Сподели в Twitter"
+
+#~ msgid "Share on Facebook"
+#~ msgstr "Сподели във Facebook"
+
+#~ msgid "Share on LinkedIn"
+#~ msgstr "Сподели в LinkedIn"
+
+#~ msgid "Share on Google+"
+#~ msgstr "Сподели в Google+"
+
+#~ msgid "Vote on Reddit"
+#~ msgstr "Гласувай в Reddit"
+
+#~ msgid "Stumble it"
+#~ msgstr "Сподели в StumbleUpon"
+
+#~ msgid "(Edit)"
+#~ msgstr "(Редактирай)"
+
+#~ msgid ""
+#~ "Posted on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time datetime="
+#~ "\"%3$s\">%4$s</time></a><span> by <span class=\"author vcard\"><a class="
+#~ "\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></"
+#~ "span>"
+#~ msgstr ""
+#~ "Публикувано на <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time "
+#~ "datetime=\"%3$s\">%4$s</time></a><span> от <span class=\"author vcard"
+#~ "\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7"
+#~ "$s</a></span></span>"
+
+#~ msgid "Leave a Comment"
+#~ msgstr "Остави коментар"
+
+#~ msgid "Leave a Comment to %s"
+#~ msgstr "Остави коментар за %s"
+
+#~ msgid "Cancel Comment"
+#~ msgstr "Отмени коментара"
+
+#~ msgid ""
+#~ "Categories: <a href=\"%2$s\" title=\"View all posts in %1$s\">%1$s</a>."
+#~ msgstr ""
+#~ "Категории: <a href=\"%2$s\" title=\"Виж всички постове в %1$s\">%1$s</a>."
+
+#~ msgid "View all posts in "
+#~ msgstr "View all posts в "
+
+#~ msgid ""
+#~ "This entry was posted in %1$s by <a href=\"%6$s\">%5$s</a>. Bookmark the "
+#~ "<a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</"
+#~ "a>."
+#~ msgstr ""
+#~ "Публикувано в %1$s от <a href=\"%6$s\">%5$s</a>. Запази <a href=\"%3$s\" "
+#~ "title=\"Пермалинк до %4$s\" rel=\"bookmark\">пермалинка</a>."
+
+#~ msgid ""
+#~ "This entry was posted by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href="
+#~ "\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+#~ msgstr ""
+#~ "Публикувано от <a href=\"%6$s\">%5$s</a>. Запази <a href=\"%3$s\" title="
+#~ "\"Пермалинк до %4$s\" rel=\"bookmark\">пермалинка</a>."
+
+#~ msgid "Next Entries"
+#~ msgstr "Следващи "
+
+#, fuzzy
+#~ msgid "Categories: "
+#~ msgstr "Категории:"
